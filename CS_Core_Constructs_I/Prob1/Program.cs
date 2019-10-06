@@ -1,6 +1,6 @@
 ﻿/*
-Author: <your name>
-Date:   <date>
+Author: <Daniel Davidson>
+Date:   <10/04/2019>
 CTEC 135: Microsoft Software Development with C#
 
 <Solution Name>
@@ -35,13 +35,47 @@ namespace Prob1
     {
         static void Main(string[] args)
         {
-            #region example of a code region
-            // some code
-            #endregion
+            // Region 1
 
-            #region another code region
-            // some code
-            #endregion
+            /*
+            double y = 15.75; 
+
+             */
+
+            int i = 13.75;
+            system.Int32 y = 15.3256;
+            bool e = new bool(12.3);
+
+            // Region 2
+            
+            byte valy = 1_2_9;
+            Console.WriteLine();
+
+            short j = 12_98_5;
+            Console.WriteLine();
+
+            int x = 54_776;
+            Console.WriteLine();
+
+            long v = 99_432;
+            Console.WriteLine();
+
+            float on = 004_443;
+            Console.WriteLine();
+
+            double down = 99954_004;
+            Console.WriteLine();
+
+            decimal g = 00033_443;
+            Console.WriteLine();
+
+            //Region 3 Max Min Values 
+
+            byte a = 12;
+			    
+            Console.WriteLine("byte\tA = {0}\t{1}\t{2}\t{3}", a, typeof(byte), byte.MaxValue, byte.MinValue);
+
+
         }
     }
 }
